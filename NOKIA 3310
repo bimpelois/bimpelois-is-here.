@@ -1,0 +1,156 @@
+import java.util.Scanner;
+
+class CustomerService{
+
+	static void main(String[] args){
+
+		Scanner inputCollector = new Scanner(System.in);
+
+
+		String menu = """	
+	WELCOME TO NOKIA - 3310 EDITION
+
+	Phone - Press 1
+	Message - Press 2
+	Chat - Press 3
+	Call - Press 4
+    Show call duration - press 5
+	Show all call - Press 6
+    Call cost settings - press 7
+    Prepaid credit - press 8
+
+	""";
+
+	System.out.print(menu);
+
+	int generalMenuChoice =  inputCollector.nextInt();
+
+	switch(generalMenuChoice){
+	
+		case  1 -> {System.out.println("phone Menu"); 
+
+		String PhoneMenu = """
+
+	Press enter - To search all Contact
+	Press 5- To select a contact
+	Press  - 
+	""";
+	System.out.println(englishMenu); 
+	int englishMenuChoice =  inputCollector.nextInt();
+	switch(englishMenuChoice){
+		case 1 -> {System.out.print("You use your hand enter wahala");
+		
+	String englishSemicolonMenu = """
+
+	Press 1 - To Drop Out
+	""";
+	System.out.println(englishSemicolonMenu); 
+	int englishSemicolonMenuChoice =  inputCollector.nextInt();
+	switch(englishSemicolonMenuChoice){
+		case 1 -> System.out.print("It's already too late o");
+	}
+
+	}
+		case 2 -> System.out.print("Amotekun form is still available");
+		case 3 -> System.out.print("Free Bicycle available");
+		default -> System.out.println("Oga, you no go school");
+
+	}
+
+}
+		
+		case  2 -> {System.out.printf("Yoruba Menu");
+
+		String yorubaMenu = """
+
+	Te 1 - Lati foruko sile si Semicolon
+	Te 2 - Lati foruko sile si  Amotekun
+	Te 3 - Lati foruko sile si  Neighbourhood
+	""";
+	System.out.println(yorubaMenu); 
+	int yorubaMenuChoice =  inputCollector.nextInt();
+	switch(yorubaMenuChoice){
+		case 1 -> System.out.print("E ti wo ooooooooooooooooo");
+		case 2 -> System.out.print("E ma gba uniform");
+		case 3 -> System.out.print("E ma gba keke");
+		default -> System.out.println("Oga, e lo school na");
+
+	}
+
+
+
+
+ }
+
+		case  3 -> System.out.printf("Hausa Menu"); 
+
+		case  4 -> System.out.printf("Igbo Menu");
+
+		case  5 -> System.out.printf("Pidgin Menu"); 
+    
+		default -> System.out.println("Oga, you no go school");
+	
+	}
+
+		
+        case  3 -> System.out.print("Hausa Menu");
+
+	String HausaMenu = """
+
+     Danna1 - Yirijista yanzu tare da Semicolon
+	 Danna2 - Yirijista yanzu tare da   Amotekun
+	 Danna3 -  Yirijista yanzu tare da Neighbourhood
+	""";
+	System.out.println(HausaMenu); 
+	int HausaMenuChoice =  inputCollector.nextInt();
+	switch(HausaMenuChoice){
+		case 1 -> System.out.print("Ka shigi uku");
+		case 2 -> System.out.print("karbi uniform kyauta");
+		case 3 -> System.out.print("zaku karbi keke kyauta");
+		default -> System.out.println("Aboki, babu makaranta");
+
+	}
+
+case  4 -> System.out.print("Igbo Menu");
+
+	String IgboMenu = """
+
+     Danna1 - Yirijista yanzu tare da Semicolon
+	 Danna2 - Yirijista yanzu tare da   Amotekun
+	 Danna3 -  Yirijista yanzu tare da Neighbourhood
+	""";
+	System.out.println(IgboMenu); 
+	int IgboMenuChoice =  inputCollector.nextInt();
+	switch(IgboMenuChoice){
+		case 1 -> System.out.print("Ka shigi uku");
+		case 2 -> System.out.print("karbi uniform kyauta");
+		case 3 -> System.out.print("zaku karbi keke kyauta");
+		default -> System.out.println("Aboki, babu makaranta");
+
+
+         }
+
+case  4 -> System.out.print("Pigin");
+
+	String PiginMenu = """ 
+
+     Danna1 - Yirijista yanzu tare da Semicolon
+	 Danna2 - Yirijista yanzu tare da   Amotekun
+	 Danna3 -  Yirijista yanzu tare da Neighbourhood
+	""";
+	System.out.println(Menu); 
+	int PiginMenuChoice =  inputCollector.nextInt();
+	switch(PiginMenuChoice){
+		case 1 -> System.out.print("Ka shigi uku");
+		case 2 -> System.out.print("karbi uniform kyauta");
+		case 3 -> System.out.print("zaku karbi keke kyauta");
+		default -> System.out.println("Aboki, babu makaranta");
+
+        }
+
+
+	}
+
+}
+
+
